@@ -1,0 +1,20 @@
+///generate_item_database()
+var db = ds_list_create();
+ds_list_add(db, "Lesser Potion of Healing", sht_Potions, 0, 10, "Restores 5 health upon ingestion.");
+ds_list_add(db, "Potent Potion of Healing", sht_Potions, 1, 30, "Restores 20 health upon ingestion.");
+ds_list_add(db, "Greater Potion of Healing", sht_Potions, 2, 80, "Restores 40 health upon ingestion.");
+ds_list_add(db, "Lesser Potion of Magick", sht_Potions, 3, 15, "Restores 3 mana upon ingestion.");
+ds_list_add(db, "Potent Potion of Magick", sht_Potions, 4, 50, "Restores 15 mana upon ingestion.");
+ds_list_add(db, "Greater Potion of Magick", sht_Potions, 5, 110, "Restores 30 mana upon ingestion.");
+ds_list_add(db, "Slime Ball", sht_Drops, 0, 5, "A gelatinous ball of green slime. Used as a material in alchemy and potion brewing.");
+ds_list_add(db, "Rime Ball", sht_Drops, 1, 25, "A gelatinous ball of red slime. Used as a material in alchemy and potion brewing.");
+ds_list_add(db, "Bat Wing", sht_Drops, 2, 10, "A leathery bat wing. The membrane can be tanned for leather grips on weapons.");
+ds_list_add(db, "Mana Core", sht_Drops, 3, 40, "A rocky core infused with magic. Can be used to create magical runestones.");
+ds_list_add(db, "Flame Core", sht_Drops, 4, 80, "A scorching stone that glows with intense heat. Can be used to create magical runestones.");
+ds_list_add(db, "Energy Core", sht_Drops, 5, 150, "A powerful battery that thrums with mechanical energy.");
+ds_list_add(db, "Skull Rod", sht_Drops, 6, 200, "");
+ds_list_add(db, "Corrupted Flesh", sht_Drops, 7, 60, "Dark, pulsating flesh that flows with eldritch magic. It can be tanned for leather grips on weapons.");
+ds_list_add(db, "Vile Eye", sht_Drops, 8, 350, "A veiny eyeball that, looking into its pupil, makes you feel uneasy.");
+ds_list_add(db, "Golran's Eye", sht_Drops, 9, 1000, "A large, constructed eye that follows you as you move. There seems to be a small, blinking light in its pupil.");
+ds_list_add(db, "Golran's Tooth", sht_Drops, 10, 100, "A large tooth that once belonged to the guardian of a lost temple.");
+return db;
